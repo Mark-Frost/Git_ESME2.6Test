@@ -1,5 +1,11 @@
 {
-  "references": {},
+  "references": {
+    "GIATV": {
+      "$type": "ManagedLibrary",
+      "libraryId": "GMC Independent Altivar, 1.4.0.0 (Schneider Electric)",
+      "allowUnqualifiedAccess": true
+    }
+  },
   "placeholderOverrides": {
     "RSMUtility": "RSM Utility, 3.5.21.0 (CODESYS)",
     "Standard": "Standard, 3.5.18.0 (System)",
@@ -23,7 +29,7 @@
     "objectTypeGuid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
     "embeddedObjectTypeGuids": [],
     "properties": {
-      "Elau.Epas5.LibraryConfiguration.CoDeSysInterface.MappingTableObject": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Single xml:space=\"preserve\" Type=\"{c8edade9-a049-4800-a2d4-edc2b2aca694}\" Method=\"IArchivable\"><Array Name=\"LibraryMappings\" Type=\"string\"><Single Type=\"string\">AsyncManager, 1.0.9.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic Device Support, 1.0.5.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic, 1.0.1.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic Dictionary, 1.0.9.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic Interfaces, 1.0.3.0 (Schneider Electric)</Single></Array></Single>"
+      "Elau.Epas5.LibraryConfiguration.CoDeSysInterface.MappingTableObject": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Single xml:space=\"preserve\" Type=\"{c8edade9-a049-4800-a2d4-edc2b2aca694}\" Method=\"IArchivable\"><Array Name=\"LibraryMappings\" Type=\"string\"><Single Type=\"string\">AsyncManager, 1.0.9.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic Device Support, 1.0.5.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic, 1.0.1.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic Dictionary, 1.0.9.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic Interfaces, 1.0.3.0 (Schneider Electric)</Single><Single Type=\"string\">GMC Independent Altivar, 1.4.0.0 (Schneider Electric)</Single><Single Type=\"string\">GMC Independent Interfaces, 1.4.1.0 (Schneider Electric)</Single><Single Type=\"string\">GMC Independent Base, 1.4.0.0 (Schneider Electric)</Single></Array></Single>"
     },
     "subObjects": {}
   },

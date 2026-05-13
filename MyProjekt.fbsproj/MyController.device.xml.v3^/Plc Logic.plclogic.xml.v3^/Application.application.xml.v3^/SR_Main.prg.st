@@ -14,6 +14,27 @@ __METADATA__
 __DECLARATION__
 PROGRAM SR_Main
 VAR
+    fb_Control_ATV : GIATV.Control_ATV;
+    xEnable : BOOL := TRUE;
+    xKeepOpEnable : BOOL := FALSE;
+    xForward : BOOL := FALSE;
+    xReverse : BOOL := TRUE;
+    xQuickStop : BOOL := TRUE;
+    xFreeWheel : BOOL := TRUE;
+    xFaultReset : BOOL := FALSE;
+    wSpeedReference : WORD := 1000;
+    AxisReference : Axis_Ref;
 END_VAR
 __IMPLEMENTATION__
 
+fb_Control_ATV(
+    i_xEn := xEnable,
+    i_xKeepOpEn := xKeepOpEnable,
+    i_xFwd := xForward,
+    i_xRev := xReverse,
+    i_xQckStop := xQuickStop,
+    i_xFreeWhl := xFreeWheel,
+    i_xFltRst := xFaultReset,
+    i_wSpdRef := wSpeedReference,
+    Axis := AxisReference
+);
