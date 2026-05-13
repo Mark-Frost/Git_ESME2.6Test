@@ -208,7 +208,9 @@ __V3_CONTENT__
         <Single Name="Adapters" Type="{1da2f14a-1c63-4268-9171-3b6869b8ccd6}" Method="IArchivable">
           <List Name="Adapters" Type="System.Collections.ArrayList">
             <Single Type="{3f828f0b-c67b-430a-8c93-1e9bc324df64}" Method="IArchivable">
-              <List Name="Modules" Type="System.Collections.ArrayList" />
+              <List Name="Modules" Type="System.Collections.ArrayList">
+                <Single Type="System.Guid">47757e28-b91a-4b04-88c4-e8de4b73f835</Single>
+              </List>
               <Single Name="MaxDevices" Type="int">2147483647</Single>
               <Single Name="SupportPlaceholderObjects" Type="bool">False</Single>
             </Single>
@@ -239,7 +241,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">IPAddress</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">0</Single>
-                <Single Name="Value" Type="string">[0, 0, 0, 0]</Single>
+                <Single Name="Value" Type="string">[192, 168, 10, 100]</Single>
                 <Single Name="Type" Type="string">ARRAY[0..3] OF BYTE</Single>
                 <Single Name="Default" Type="string">[0, 0, 0, 0]</Single>
               </Single>
@@ -269,7 +271,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">SubnetMask</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">1</Single>
-                <Single Name="Value" Type="string">[0, 0, 0, 0]</Single>
+                <Single Name="Value" Type="string">[255, 255, 255, 0]</Single>
                 <Single Name="Type" Type="string">ARRAY[0..3] OF BYTE</Single>
                 <Single Name="Default" Type="string">[0, 0, 0, 0]</Single>
               </Single>
@@ -552,7 +554,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">WebServer</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">6</Single>
-                <Single Name="Value" Type="string">true</Single>
+                <Single Name="Value" Type="string">TRUE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">true</Single>
               </Single>
@@ -673,7 +675,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">FTP Server</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">21</Single>
-                <Single Name="Value" Type="string">true</Single>
+                <Single Name="Value" Type="string">TRUE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">true</Single>
               </Single>
@@ -699,7 +701,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">SoMachine Protocol</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">22</Single>
-                <Single Name="Value" Type="string">true</Single>
+                <Single Name="Value" Type="string">TRUE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">true</Single>
               </Single>
@@ -725,7 +727,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">Modbus Server</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">23</Single>
-                <Single Name="Value" Type="string">false</Single>
+                <Single Name="Value" Type="string">FALSE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">false</Single>
               </Single>
@@ -751,7 +753,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">NetManage Protocol</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">24</Single>
-                <Single Name="Value" Type="string">true</Single>
+                <Single Name="Value" Type="string">TRUE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">true</Single>
               </Single>
@@ -777,7 +779,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">SNMP protocol</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">25</Single>
-                <Single Name="Value" Type="string">false</Single>
+                <Single Name="Value" Type="string">FALSE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">false</Single>
               </Single>
@@ -803,7 +805,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">WebVisu protocol</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">27</Single>
-                <Single Name="Value" Type="string">false</Single>
+                <Single Name="Value" Type="string">FALSE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">false</Single>
               </Single>
@@ -913,7 +915,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">DHCP Server Active</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">31</Single>
-                <Single Name="Value" Type="string">true</Single>
+                <Single Name="Value" Type="string">TRUE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">true</Single>
               </Single>
@@ -968,7 +970,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">Secured Web Server</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">34</Single>
-                <Single Name="Value" Type="string">true</Single>
+                <Single Name="Value" Type="string">TRUE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">true</Single>
               </Single>
@@ -994,7 +996,7 @@ __V3_CONTENT__
                   <Single Name="Default" Type="string">Remote Connection</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">35</Single>
-                <Single Name="Value" Type="string">true</Single>
+                <Single Name="Value" Type="string">TRUE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
                 <Single Name="Default" Type="string">true</Single>
               </Single>

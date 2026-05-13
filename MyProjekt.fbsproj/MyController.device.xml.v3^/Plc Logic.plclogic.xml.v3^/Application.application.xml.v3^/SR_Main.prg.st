@@ -23,7 +23,7 @@ VAR
     xFreeWheel : BOOL := TRUE;
     xFaultReset : BOOL := FALSE;
     wSpeedReference : WORD := 1000;
-    AxisReference : Axis_Ref;
+   
 END_VAR
 __IMPLEMENTATION__
 
@@ -36,5 +36,5 @@ fb_Control_ATV(
     i_xFreeWhl := xFreeWheel,
     i_xFltRst := xFaultReset,
     i_wSpdRef := wSpeedReference,
-    Axis := AxisReference
+    Axis := Altivar_320
 );
