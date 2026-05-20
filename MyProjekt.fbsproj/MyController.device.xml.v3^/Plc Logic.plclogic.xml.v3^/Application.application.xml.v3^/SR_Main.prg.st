@@ -54,6 +54,8 @@ fbControlConveyor2(i_xEn := xStartSensorConveyor2 AND NOT xStopSensorConveyor2,
                     i_wSpdRef := wSpeedReference,
                     Axis := axisConveyor2);
 
+                    
+
 // Conveyor 3 Control
 fbControlConveyor3(i_xEn := xStartSensorConveyor3 AND NOT xStopSensorConveyor3,
                     i_xKeepOpEn := TRUE,
