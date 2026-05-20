@@ -212,6 +212,7 @@ __V3_CONTENT__
             <Single Type="{3f828f0b-c67b-430a-8c93-1e9bc324df64}" Method="IArchivable">
               <List Name="Modules" Type="System.Collections.ArrayList">
                 <Single Type="System.Guid">2507c486-be8f-4deb-bf78-d960d8450239</Single>
+                <Single Type="System.Guid">dec5549b-eaa9-40e5-81a2-57cec1625c6f</Single>
               </List>
               <Single Name="MaxDevices" Type="int">64</Single>
               <Single Name="SupportPlaceholderObjects" Type="bool">False</Single>

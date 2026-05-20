@@ -1,0 +1,33 @@
+__V3_META__
+{
+  "objectGuid": "36091413-5d65-41ec-83f0-e0ee02b9cc93",
+  "objectTypeGuid": "21d4fe94-4123-4e23-9091-ead220afbd1f",
+  "embeddedObjectTypeGuids": [],
+  "properties": {},
+  "subObjects": {}
+}
+__V3_CONTENT__
+<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{21d4fe94-4123-4e23-9091-ead220afbd1f}" Method="IArchivable">
+  <Single Name="GVLGuid" Type="System.Guid">b7487b3c-d301-44b6-8148-45fd9a0a2a78</Single>
+  <Single Name="POUGuid" Type="System.Guid">9bd5dba8-ceaa-4767-bc6f-785efe92a7be</Single>
+  <List2 Name="SelectionSigns" />
+  <List2 Name="SelectionTypeSigns" />
+  <Single Name="LibraryIds" Type="{475e2d23-d370-486a-bf04-61cd7f272d63}" Method="IArchivable">
+    <Dictionary2 Name="Table" />
+  </Single>
+  <Single Name="ChangePouGuid" Type="System.Guid">32930ce7-00e8-47bc-a664-1c0e0fcb8b17</Single>
+  <Single Name="ExportSymbolComments" Type="bool">False</Single>
+  <Single Name="SupportOPCUA" Type="bool">True</Single>
+  <Single Name="UseEmptyNamespaceByDefault" Type="bool">False</Single>
+  <Single Name="ContentFeatureFlagsPartial" Type="{e4a5ef04-a758-4433-87ed-33f95f57640a}">None</Single>
+  <Single Name="SymbolAttributeFilterType" Type="{920738ca-88e7-4433-88f7-4a50c373436a}">None</Single>
+  <Null Name="SymbolAttributeFilterData" />
+  <Single Name="SymbolCommentFilterType" Type="{b2765d18-2203-42fd-a97c-fd0297101580}">None</Single>
+  <Single Name="EnableDirectIoAccess" Type="bool">False</Single>
+  <Single Name="PreoareOnlineChangePouGuid" Type="System.Guid">af239176-31f9-4121-a79e-09a91b0bb6c7</Single>
+  <Single Name="ClientSideLayoutCalculator" Type="System.Guid">0141eb75-141b-4ea1-9a8c-75f952b22a6c</Single>
+  <List2 Name="SelectionSignaturesConfig" />
+  <List2 Name="SelectionTypeSignaturesConfig" />
+  <List2 Name="SymbolSetNames" />
+</Single>
