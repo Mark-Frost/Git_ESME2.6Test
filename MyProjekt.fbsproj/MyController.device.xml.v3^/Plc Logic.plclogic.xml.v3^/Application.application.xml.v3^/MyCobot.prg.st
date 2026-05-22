@@ -14,6 +14,14 @@ __METADATA__
 __DECLARATION__
 PROGRAM MyCobot
 VAR
+	fb_Cobot : LCC.FB_CobotController;
 END_VAR
 __IMPLEMENTATION__
-
+fb_Cobot(
+	i_xEnable:= , 
+	i_xErrorQuit:= , 
+	q_xActive=> , 
+	q_xReady=> , 
+	q_xError=> , 
+	q_etResult=> , 
+	q_sResultMsg=> );
