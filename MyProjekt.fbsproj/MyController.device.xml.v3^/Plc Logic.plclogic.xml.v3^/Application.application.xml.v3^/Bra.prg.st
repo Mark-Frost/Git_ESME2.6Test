@@ -17,4 +17,4 @@ VAR
 	MyVar1 : BOOL;
 END_VAR
 __IMPLEMENTATION__
-
+MyVar1 := TRUE;
