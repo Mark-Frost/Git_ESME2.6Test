@@ -17,4 +17,4 @@ VAR
 	Var1 : REAL;
 END_VAR
 __IMPLEMENTATION__
-
+Var1 := 23.5;
